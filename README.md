@@ -25,10 +25,14 @@ Analyzing emotional dynamics in social interactions using voice, linguistic, and
 
 **Background**
 **Dataset**
-**Source:** Obtained from MarieSTL, Pierre Bellec’s Lab, ensuring credibility and relevance to the research question.
+**Source:** 
+Obtained from MarieSTL, Pierre Bellec’s Lab, ensuring credibility and relevance to the research question.
 
-**Modality:** Includes audio (MP3) and textual transcripts (JSON) of dialogues.
-**Suitability:** Ideal for capturing real-life interactions among friends and exploring emotional dynamics.
+**Modality:** 
+Includes audio (MP3) and textual transcripts (JSON) of dialogues.
+
+**Suitability:**
+Ideal for capturing real-life interactions among friends and exploring emotional dynamics.
 
 **Tools**
 **Voice Analysis**
@@ -47,6 +51,7 @@ JSON transcript files containing dialogue text
 
 **Deliverables**
 **Expected Outputs**
+
 GitHub repository with code scripts and Jupyter notebooks
 Documentation (README.md)
 Dataset files (audio, JSON transcripts)
@@ -55,12 +60,14 @@ Training materials and models
 
 **Results**
 **Achievements**
+
 Integrated voice and linguistic analysis for emotional dynamics
 Developed emotion detection models for audio and text inputs
 Established a robust analysis pipeline from data preprocessing to visualization
 
 **Progress Overview**
 **Summary**
+
 Successfully implemented tools for voice and linguistic analysis
 Challenges included data integration and model optimization
 Tools I Learned During This Project
@@ -70,6 +77,7 @@ Docker, Git/GitHub for version control and project management
 
 **Conclusion and Acknowledgement**
 **Next Steps**
+
 Enhance model performance and expand dataset coverage
 Prepare findings for publication and seek collaboration opportunities
 Acknowledgement
