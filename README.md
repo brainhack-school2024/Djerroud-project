@@ -1,7 +1,7 @@
 # Djerroud-project
 
 **Voice and Linguistic Analysis to Determine Emotions in Friends' Interactions**
-Welcome to my project, where I explore the intersection of voice analysis, linguistic analysis, and natural language processing (NLP) to uncover the emotions generated during interactions among friends. This project leverages advanced tools and machine learning models to analyze speech patterns, text exchanges, and vocal nuances to detect and interpret emotional states.
+Welcome to my project, where I explore the intersection of voice analysis, linguistic analysis, and natural language processing (NLP) to uncover the emotions generated during interactions among friends. This project analyze speech patterns, text exchanges, and vocal nuances to detect and interpret emotional states and determine the closeness betweeen the characters.
 
 Features:
 
