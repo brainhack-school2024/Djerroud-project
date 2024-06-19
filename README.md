@@ -82,4 +82,6 @@ Enhance model performance and expand dataset coverage
 Prepare findings for publication and seek collaboration opportunities
 Acknowledgement
 Special thanks to MarieSTL, venkatesh and Pierre Bellec’s Lab for providing the "Friends" dataset
-Gratitude to the open-source community for tools and libraries used
+Gratitude to the open-source community for tools and libraries used.
+
+than you for your time
