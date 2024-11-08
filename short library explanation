@@ -1,0 +1,71 @@
+librosa:
+
+Used for audio processing, including loading audio files, visualizing waveforms, and extracting Mel-frequency cepstral coefficients (MFCCs) from audio files.
+Functions: librosa.load(), librosa.display.waveshow(), librosa.feature.mfcc(), librosa.display.specshow().
+
+matplotlib.pyplot:
+
+Used for plotting and visualizing data such as waveforms and MFCCs.
+Functions: plt.figure(), plt.subplot(), plt.plot(), plt.bar(), plt.show(), plt.xlabel(), plt.ylabel(), plt.title().
+
+matplotlib.font_manager:
+
+Manages fonts in plots, allowing the search and selection of specific fonts.
+Functions: fm.findSystemFonts(), fm.findfont().
+
+os:
+
+Handles path manipulations, especially for loading JSON files and setting file paths.
+Functions: os.path.expanduser(), os.path.join(), os.remove().
+
+json:
+
+Used for loading and parsing JSON data.
+Functions: json.load(), json.dumps(), data.keys(), data["results"]["channels"][0]['alternatives'][0]["words"].
+
+assemblyai (aai):
+
+Provides audio transcription via the AssemblyAI API, supporting features like sentiment analysis and speaker identification.
+Functions: aai.settings.api_key, aai.TranscriptionConfig(), transcriber.transcribe(), transcript.text.
+
+warnings:
+
+Suppresses warnings during code execution.
+Function: warnings.filterwarnings('ignore').
+
+sqlite3:
+
+Manages SQLite database connections, including creating tables, executing queries, and storing data.
+Functions: sqlite3.connect(), cur.execute(), df.to_sql(), cur.fetchall(), conn.commit().
+TextBlob:
+
+Performs sentiment analysis on text data.
+Function: TextBlob(x).sentiment.polarity.
+
+pandas (pd):
+
+Used for data manipulation and analysis, particularly for processing dialogue data, applying sentiment analysis, and grouping by character.
+Functions: pd.DataFrame(), df['char'].replace(), df.groupby(), df.apply(), df.iterrows().
+
+sklearn.feature_extraction.text:
+
+Converts text data into numerical features using TF-IDF vectorization.
+Function: TfidfVectorizer().
+sklearn.metrics.pairwise:
+
+Calculates similarity metrics between two sets of text data, such as cosine similarity.
+Function: cosine_similarity().
+
+re:
+
+Used for cleaning and processing text data using regular expressions.
+Functions: re.compile(), regex.sub().
+
+itertools:
+
+Facilitates iteration over pairs or combinations of elements, useful for comparing character dialogue styles.
+Function: itertools.combinations().
+collections.Counter:
+
+Counts the frequency of words in a collection, useful for keyword extraction.
+Function: Counter().
